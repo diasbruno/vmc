@@ -31,7 +31,7 @@ We are going to run some examples a million times
 (kinda simulating that this pattern/code/style is replicate
 in more than just our test function). Each run will be started
 in a setInterval executed every 250ms, 500ms and 1s (so maybe it will have leftovers
-to run after a GC is triggered - pretend it's a "heave load").
+to run after a GC is triggered - pretend it's a "heavy load").
 
 In this setup, imagine that we are not just running our code,
 but third-party code, libraries and framework, everybody using
